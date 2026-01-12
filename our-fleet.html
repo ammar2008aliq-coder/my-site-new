@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Our Fleet | NRT UAE Heavy Equipment Rental</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f2d00d",
+                        "background-light": "#f8f8f5",
+                        "background-dark": "#1a180e", // Slightly darker variant for depth
+                        "navy-accent": "#232010",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display">
+<!-- Navigation Bar -->
+<header class="sticky top-0 z-50 w-full border-b border-white/10 bg-background-dark/80 backdrop-blur-md px-6 md:px-10 lg:px-40 py-4">
+<div class="max-w-[1280px] mx-auto flex items-center justify-between">
+<div class="flex items-center gap-12">
+<div class="flex items-center gap-3 text-primary">
+<div class="size-8 flex items-center justify-center">
+<svg class="w-full h-full" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-white text-xl font-black leading-tight tracking-tighter">NRT UAE</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-white/70 hover:text-primary text-sm font-medium transition-colors" href="#">Home</a>
+<a class="text-primary text-sm font-bold border-b-2 border-primary pb-1" href="#">Our Fleet</a>
+<a class="text-white/70 hover:text-primary text-sm font-medium transition-colors" href="#">Services</a>
+<a class="text-white/70 hover:text-primary text-sm font-medium transition-colors" href="#">About Us</a>
+<a class="text-white/70 hover:text-primary text-sm font-medium transition-colors" href="#">Contact</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden lg:flex items-center bg-white/5 border border-white/10 rounded-lg px-3 py-1.5">
+<span class="material-symbols-outlined text-white/40 text-sm mr-2">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm text-white placeholder:text-white/30 w-32" placeholder="Search equipment..." type="text"/>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-background-dark px-5 py-2 rounded-lg text-sm font-bold transition-all shadow-lg shadow-primary/10">
+                    Get a Quote
+                </button>
+</div>
+</div>
+</header>
+<main class="max-w-[1280px] mx-auto px-6 md:px-10 lg:px-40 py-12">
+<!-- Page Heading -->
+<div class="flex flex-col gap-4 mb-10">
+<h1 class="text-white text-5xl md:text-6xl font-black leading-none tracking-tight">Our Fleet</h1>
+<p class="text-white/60 text-lg max-w-2xl leading-relaxed">
+                Premium heavy-duty machinery for construction, infrastructure, and oil &amp; gas projects across the UAE. Precision-engineered power at your service.
+            </p>
+</div>
+<!-- Filter Tabs -->
+<div class="flex flex-wrap border-b border-white/10 mb-8 gap-2 md:gap-8 overflow-x-auto no-scrollbar">
+<a class="flex flex-col items-center justify-center border-b-2 border-primary text-white pb-4 pt-2 whitespace-nowrap" href="#">
+<span class="text-sm font-bold tracking-wide">All Equipment</span>
+</a>
+<a class="flex flex-col items-center justify-center border-b-2 border-transparent text-white/50 hover:text-white pb-4 pt-2 transition-all whitespace-nowrap" href="#">
+<span class="text-sm font-bold tracking-wide">Mobile Cranes</span>
+</a>
+<a class="flex flex-col items-center justify-center border-b-2 border-transparent text-white/50 hover:text-white pb-4 pt-2 transition-all whitespace-nowrap" href="#">
+<span class="text-sm font-bold tracking-wide">Crawler Cranes</span>
+</a>
+<a class="flex flex-col items-center justify-center border-b-2 border-transparent text-white/50 hover:text-white pb-4 pt-2 transition-all whitespace-nowrap" href="#">
+<span class="text-sm font-bold tracking-wide">Excavators</span>
+</a>
+<a class="flex flex-col items-center justify-center border-b-2 border-transparent text-white/50 hover:text-white pb-4 pt-2 transition-all whitespace-nowrap" href="#">
+<span class="text-sm font-bold tracking-wide">Wheel Loaders</span>
+</a>
+</div>
+<!-- Equipment Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Item 1: 500T Mobile Crane -->
+<div class="group flex flex-col bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-primary/50 transition-all">
+<div class="relative aspect-[16/10] overflow-hidden">
+<div class="absolute inset-0 bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-500" data-alt="Heavy duty 500 ton mobile crane on job site" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBedt1sen5uamKBkm44EO_cU0TguIpBbnc3A1jffwnY72G--oINK9zOjtmgltBWwDjeqx7cggyy8xBKswURxowelrhtjPNhKhcuKB3dUPmGPQdIgqfuOOYAaPwIIfofU2Vs52PJCjbpSjf2yj8wBgwGc7ehz68wO2n-erUGaToL7JjgSwPPaPmq1Xa_kLbBcYj2_N8oR5CEsV_q_mtwKySrZXoB5xtSoNg6M9NOW77Hx3Bz_dUEBT7GYocbF011ut9or71QGYK_hkE");'>
+</div>
+<div class="absolute top-4 right-4 bg-primary text-background-dark px-3 py-1 rounded-full text-xs font-black uppercase tracking-widest">Available</div>
+</div>
+<div class="p-6 flex flex-col gap-4">
+<div>
+<h3 class="text-white text-xl font-bold mb-1">500T Mobile Crane</h3>
+<p class="text-white/50 text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">fitness_center</span>
+                            Lifting Capacity: 500 Tons
+                        </p>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex justify-between items-center text-xs text-white/40 uppercase tracking-widest border-t border-white/5 pt-3">
+<span>High Precision</span>
+<span>All-Terrain</span>
+</div>
+<button class="w-full flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white py-3 rounded-lg font-bold transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Quote on WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+<!-- Item 2: 250T Mobile Crane -->
+<div class="group flex flex-col bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-primary/50 transition-all">
+<div class="relative aspect-[16/10] overflow-hidden">
+<div class="absolute inset-0 bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-500" data-alt="Modern 250 ton mobile crane lifting steel" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCUzdmt2KkYoP1AWF78E1ZEaFnGOP8fLLegawuapV0C8Jkj_a_S-XibJAzx0FwrWll9pualP57D-gzanPyWU6KEcxPDrMycmMNe0nb4QJ7AdH_pnRgXl9i8-ccmmlZetfJGzXCJYT2VqIiNh6ZE22fWcUyEH4wueE9uonvEuqoWC6MoQKxdatuZIxBb6g6ZbJOiclJHEXVdDl7Tyjak569gYF2K4Ulld50y-98owpRCJPPAQc6Nf4fydBbVnub0fz0b4oUXFuP5f1U");'>
+</div>
+</div>
+<div class="p-6 flex flex-col gap-4">
+<div>
+<h3 class="text-white text-xl font-bold mb-1">250T Mobile Crane</h3>
+<p class="text-white/50 text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">fitness_center</span>
+                            Lifting Capacity: 250 Tons
+                        </p>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex justify-between items-center text-xs text-white/40 uppercase tracking-widest border-t border-white/5 pt-3">
+<span>Rapid Setup</span>
+<span>Compact Design</span>
+</div>
+<button class="w-full flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white py-3 rounded-lg font-bold transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Quote on WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+<!-- Item 3: CC2800 Crawler Crane -->
+<div class="group flex flex-col bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-primary/50 transition-all">
+<div class="relative aspect-[16/10] overflow-hidden">
+<div class="absolute inset-0 bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-500" data-alt="Huge yellow crawler crane on construction site" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAxGay21GDAXdHtLv3ASexLHFzEPN5UReBXbbfij3FNDmTTBKNfrhodZLQFMeWWVvEwH_XkrmfybVajc3T2VEKRhVKVk9Wx1K_lXPYlEZY9k9Gv6ls2SIuU83kVfGm8xEnYjdWr0ngSUNnGnYTqEggqVDyeTw4ucIsEdtu0gs4i4e7dBQY-KnfgelxyIIgsgsHO8a3QG1ck8YIQVH4JU-ltFJCm7xcT1xXAxmnKauYCt4Soi8CpMtfGC9Nn3MMieY7j9J8Pb5a7IFw");'>
+</div>
+<div class="absolute top-4 right-4 bg-primary text-background-dark px-3 py-1 rounded-full text-xs font-black uppercase tracking-widest">Available</div>
+</div>
+<div class="p-6 flex flex-col gap-4">
+<div>
+<h3 class="text-white text-xl font-bold mb-1">Crawler Crane CC2800</h3>
+<p class="text-white/50 text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">architecture</span>
+                            Heavy Duty Infrastructure
+                        </p>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex justify-between items-center text-xs text-white/40 uppercase tracking-widest border-t border-white/5 pt-3">
+<span>Max Stability</span>
+<span>600T Cap.</span>
+</div>
+<button class="w-full flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white py-3 rounded-lg font-bold transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Quote on WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+<!-- Item 4: Excavator 320 -->
+<div class="group flex flex-col bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-primary/50 transition-all">
+<div class="relative aspect-[16/10] overflow-hidden">
+<div class="absolute inset-0 bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-500" data-alt="Hydraulic excavator digging earth in desert" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB7aj4oe7u2_JNhTmfdmezDhbTzgkKrJ2DOzWYeBJnV7_nqHu_UnUJ8g8XjzaEX78lo2YA5F0upIFTaGZS9GqG86wjD1Om_63sJwoXweVzn4kpAITkbpiP6hl7t0ZT1V0shpWYb64KFUM--VoXQoIQkXLgyyA-g37nm0_A9Qn5zM99Fizp2llgi_dBOFhTyx4nAFxqhExmuTLnKHYyszwT_94i0bxVQZ__stfH6JYeo9K130qTWNUczo2AJC9p9Ctu2ANtIggDKlik");'>
+</div>
+</div>
+<div class="p-6 flex flex-col gap-4">
+<div>
+<h3 class="text-white text-xl font-bold mb-1">Excavator 320</h3>
+<p class="text-white/50 text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">potted_plant</span>
+                            Earthmoving Specialist
+                        </p>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex justify-between items-center text-xs text-white/40 uppercase tracking-widest border-t border-white/5 pt-3">
+<span>Hydraulic Power</span>
+<span>Fuel Efficient</span>
+</div>
+<button class="w-full flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white py-3 rounded-lg font-bold transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Quote on WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+<!-- Item 5: Wheel Loader 950K -->
+<div class="group flex flex-col bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-primary/50 transition-all">
+<div class="relative aspect-[16/10] overflow-hidden">
+<div class="absolute inset-0 bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-500" data-alt="Industrial wheel loader moving sand" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDKlQLT9Xi1SK4aMw6S9C65FMWiYow9shnLv5B_II4iEFEKdKB0F8JhIaS2j3_il18sXILjiruzFo0VoP0HLszcg7xup2Ie2ioX_5g0k_QuH0OhkVhK5mV2tJchylqHm2e2xyKYK41TsD4KPfKdwrhLHdCd7LsNUZp_PLLkt71cipkA51KF6jvC-xwNpmHTb6XxHf45Ev6DU-PxF1s67xC0LCZabk7JtJbNODhx_eHKtRIkQGm0K22QEZ67Ay-SrohwSCav_bIv0SU");'>
+</div>
+</div>
+<div class="p-6 flex flex-col gap-4">
+<div>
+<h3 class="text-white text-xl font-bold mb-1">Wheel Loader 950K</h3>
+<p class="text-white/50 text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">conveyor_belt</span>
+                            Material Handling
+                        </p>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex justify-between items-center text-xs text-white/40 uppercase tracking-widest border-t border-white/5 pt-3">
+<span>Bulk Loaders</span>
+<span>High Payload</span>
+</div>
+<button class="w-full flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white py-3 rounded-lg font-bold transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Quote on WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+<!-- Item 6: 25T Mobile Crane -->
+<div class="group flex flex-col bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-primary/50 transition-all">
+<div class="relative aspect-[16/10] overflow-hidden">
+<div class="absolute inset-0 bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-500" data-alt="Small 25 ton crane in urban setting" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuACqXVnBEzJ4iCWIKr-_7uAujtpdHbjys-sTVrNl7lwKjP_0d-fCYJAq1fjlQAUsMFcI4yt0ijbpf62MQBeBWVleUp77B2wM4KaxkBv4slafXwVg6PRI4bC_Spf-RlTCixmaDly8krk09APm3_3KWUBrnnRb0rKi23ZEJpqwn0S218HmvMhNPcELFexymn4elJwxLUWdaEoJM9krM_tteIggwpwig1gnpbfzErmuY8k7B4RVggA-plnaPk80GZxPI3tyZoVuBNGvr0");'>
+</div>
+</div>
+<div class="p-6 flex flex-col gap-4">
+<div>
+<h3 class="text-white text-xl font-bold mb-1">25T Mobile Crane</h3>
+<p class="text-white/50 text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">fitness_center</span>
+                            Lifting Capacity: 25 Tons
+                        </p>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex justify-between items-center text-xs text-white/40 uppercase tracking-widest border-t border-white/5 pt-3">
+<span>Urban Ready</span>
+<span>Short Term</span>
+</div>
+<button class="w-full flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white py-3 rounded-lg font-bold transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Quote on WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Pagination/Load More (Subtle) -->
+<div class="mt-16 flex justify-center">
+<button class="border border-white/20 text-white/70 hover:text-white hover:border-primary px-10 py-3 rounded-lg font-bold transition-all">
+                Load More Equipment
+            </button>
+</div>
+</main>
+<!-- Footer -->
+<footer class="mt-20 border-t border-white/10 bg-navy-accent pt-16 pb-8 px-6 md:px-10 lg:px-40">
+<div class="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-3 text-primary">
+<div class="size-6">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight">NRT UAE</h2>
+</div>
+<p class="text-white/40 text-sm leading-relaxed">
+                    The UAE's leading provider of specialized heavy lifting and machinery rental solutions. Supporting the region's growth since 1998.
+                </p>
+</div>
+<div class="flex flex-col gap-6">
+<h4 class="text-white font-bold uppercase tracking-widest text-xs">Navigation</h4>
+<ul class="flex flex-col gap-3 text-white/50 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Our Fleet</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Safety Standards</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Project Portfolio</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Careers</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-6 lg:col-span-2">
+<h4 class="text-white font-bold uppercase tracking-widest text-xs">Direct Contact</h4>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div class="flex flex-col gap-2">
+<span class="text-white/30 text-xs uppercase tracking-tighter">Email Inquiry</span>
+<a class="text-primary text-xl font-black hover:underline" href="mailto:info@nrtuae.com">info@nrtuae.com</a>
+</div>
+<div class="flex flex-col gap-2">
+<span class="text-white/30 text-xs uppercase tracking-tighter">Emergency Support</span>
+<a class="text-primary text-xl font-black hover:underline" href="tel:+9710526366779">+971 052 636 6779</a>
+</div>
+</div>
+<div class="flex items-center gap-4 mt-4">
+<div class="size-10 bg-white/5 rounded-lg flex items-center justify-center text-white/60 hover:text-primary hover:bg-white/10 transition-all cursor-pointer">
+<span class="material-symbols-outlined">share</span>
+</div>
+<div class="size-10 bg-white/5 rounded-lg flex items-center justify-center text-white/60 hover:text-primary hover:bg-white/10 transition-all cursor-pointer">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+</div>
+</div>
+</div>
+<div class="max-w-[1280px] mx-auto border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-white/20 text-xs">© 2024 NRT Heavy Equipment Rental UAE. All rights reserved.</p>
+<div class="flex gap-6 text-white/20 text-xs">
+<a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</body></html>
